@@ -1,0 +1,92 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "email": "levi@fake.com",
+            "firstName": "Levi",
+            "lastName": "Schubert",
+            "city": "Spring Hill",
+            "state": "TN",
+            "password": "none"
+        },
+        {
+            "id": 2,
+            "email": "hayley@fake.com",
+            "firstName": "Hayley",
+            "lastName": "Landsberg",
+            "city": "Nashville",
+            "state": "TN",
+            "password": "none"
+        },
+        {
+            "id": 3,
+            "email": "matt@fake.com",
+            "firstName": "Matt",
+            "lastName": "Kelly",
+            "city": "Nashville",
+            "state": "TN",
+            "password": "none"
+        },
+        {
+            "id": 4,
+            "email": "daniel@fake.com",
+            "firstName": "Daniel",
+            "lastName": "Beecroft",
+            "city": "Nashville",
+            "state": "TN",
+            "password": "none"
+        },
+        {
+            "id": 5,
+            "email": "john@fake.com",
+            "firstName": "John",
+            "lastName": "McCoy",
+            "city": "Nashville",
+            "state": "TN",
+            "password": "none"
+        }
+    ],
+    "posts":[
+        {
+            "id":1,
+            "userId":1,
+            "text":"This is a post",
+            "friends":"false",
+            "timestamp":1527777788911
+        }
+    ],
+    "postLikes":[
+        {
+            "id":1,
+            "userId":2,
+            "postId":1
+        }
+    ],
+    "friends":[
+        {
+            "id": 1,
+            "userOne": 1,
+            "userTwo": 2,
+            "status": "accepted"
+        },
+        {
+            "id": 2,
+            "userOne": 2,
+            "userTwo": 3,
+            "status": "accepted"
+        },
+        {
+            "id": 3,
+            "userOne": 3,
+            "userTwo": 1,
+            "status": "accepted"
+        }   
+    ],
+    "followers":[
+        {
+            "id":1,
+            "follower":1,
+            "following":4
+        }
+    ]
+}
