@@ -1,92 +1,154 @@
 {
-    "users":[
-        {
-            "id": 1,
-            "email": "levi@fake.com",
-            "firstName": "Levi",
-            "lastName": "Schubert",
-            "city": "Spring Hill",
-            "state": "TN",
-            "password": "none"
-        },
-        {
-            "id": 2,
-            "email": "hayley@fake.com",
-            "firstName": "Hayley",
-            "lastName": "Landsberg",
-            "city": "Nashville",
-            "state": "TN",
-            "password": "none"
-        },
-        {
-            "id": 3,
-            "email": "matt@fake.com",
-            "firstName": "Matt",
-            "lastName": "Kelly",
-            "city": "Nashville",
-            "state": "TN",
-            "password": "none"
-        },
-        {
-            "id": 4,
-            "email": "daniel@fake.com",
-            "firstName": "Daniel",
-            "lastName": "Beecroft",
-            "city": "Nashville",
-            "state": "TN",
-            "password": "none"
-        },
-        {
-            "id": 5,
-            "email": "john@fake.com",
-            "firstName": "John",
-            "lastName": "McCoy",
-            "city": "Nashville",
-            "state": "TN",
-            "password": "none"
-        }
-    ],
-    "posts":[
-        {
-            "id":1,
-            "userId":1,
-            "text":"This is a post",
-            "friends":"false",
-            "timestamp":1527777788911
-        }
-    ],
-    "postLikes":[
-        {
-            "id":1,
-            "userId":2,
-            "postId":1
-        }
-    ],
-    "friends":[
-        {
-            "id": 1,
-            "userOne": 1,
-            "userTwo": 2,
-            "status": "accepted"
-        },
-        {
-            "id": 2,
-            "userOne": 2,
-            "userTwo": 3,
-            "status": "accepted"
-        },
-        {
-            "id": 3,
-            "userOne": 3,
-            "userTwo": 1,
-            "status": "accepted"
-        }   
-    ],
-    "followers":[
-        {
-            "id":1,
-            "follower":1,
-            "following":4
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "email": "levi@fake.com",
+      "firstName": "Levi",
+      "lastName": "Schubert",
+      "city": "Spring Hill",
+      "state": "TN",
+      "password": "none"
+    },
+    {
+      "id": 2,
+      "email": "hayley@fake.com",
+      "firstName": "Hayley",
+      "lastName": "Landsberg",
+      "city": "Nashville",
+      "state": "TN",
+      "password": "none"
+    },
+    {
+      "id": 3,
+      "email": "matt@fake.com",
+      "firstName": "Matt",
+      "lastName": "Kelly",
+      "city": "Nashville",
+      "state": "TN",
+      "password": "none"
+    },
+    {
+      "id": 4,
+      "email": "daniel@fake.com",
+      "firstName": "Daniel",
+      "lastName": "Beecroft",
+      "city": "Nashville",
+      "state": "TN",
+      "password": "none"
+    },
+    {
+      "id": 5,
+      "email": "john@fake.com",
+      "firstName": "John",
+      "lastName": "McCoy",
+      "city": "Nashville",
+      "state": "TN",
+      "password": "none"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "text": "This is a post",
+      "viewer": false,
+      "friends": false,
+      "timestamp": 1527777758911
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "text": "This is a post",
+      "viewer": false,
+      "friends": false,
+      "timestamp": 1527777768940
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "text": "This is a post",
+      "viewer": 2,
+      "friends": false,
+      "timestamp": 1527777778955
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "text": "This is a post",
+      "viewer": false,
+      "friends": false,
+      "timestamp": 1527777788990
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "text": "This is a post",
+      "viewer": false,
+      "friends": false,
+      "timestamp": 1527777799090
+    },
+    {
+      "userId": 1,
+      "text": "i want this to display immediately",
+      "timestamp": 1527872301273,
+      "viewer": false,
+      "friends": false,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "text": "this wont refresh the page but will render",
+      "timestamp": 1527874127468,
+      "viewer": false,
+      "friends": false,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "text": "this is a new post!",
+      "timestamp": 1527883596871,
+      "viewer": false,
+      "friends": false,
+      "id": 8
+    }
+  ],
+  "postLikes": [
+    {
+      "id": 1,
+      "userId": 2,
+      "postId": 1
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "userOne": 1,
+      "userTwo": 2,
+      "status": "accepted"
+    },
+    {
+      "id": 2,
+      "userOne": 2,
+      "userTwo": 3,
+      "status": "accepted"
+    },
+    {
+      "id": 3,
+      "userOne": 3,
+      "userTwo": 1,
+      "status": "accepted"
+    }
+  ],
+  "followers": [
+    {
+      "id": 1,
+      "follower": 1,
+      "following": 4
+    },
+    {
+      "id": 2,
+      "follower": 2,
+      "following": 1
+    }
+  ]
 }
